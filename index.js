@@ -106,10 +106,6 @@ function renderingList(data) {
 					</div>
 				</div>
 				${string}
-				<div class="new-paragraph" id="new-paragraph">
-					<input class="paragraph" type="text" placeholder='Введите задачу' id="3"/>
-					<button onclick="addTask(${i})" class='btn-add'>OK</button>
-				</div>
 				<div onclick="openWind(${i})" class="add-paragraph" id="add-paragraph">
 				+ добавить задачу
 				</div>
